@@ -1,0 +1,10 @@
+package document.assembler;
+
+public class Tree<TYPE> {
+
+	private Element<TYPE> branch;
+	
+	public Tree() {
+		this.branch = null;
+	}
+}

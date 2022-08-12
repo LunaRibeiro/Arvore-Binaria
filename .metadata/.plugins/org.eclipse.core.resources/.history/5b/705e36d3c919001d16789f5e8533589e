@@ -1,0 +1,19 @@
+package document.assembler;
+
+public class Elemento<TIPO> {
+
+	private TIPO valor;
+	
+	public Elemento(TIPO valor) {
+		 this.valor = valor;
+	}
+
+	public TIPO getValor() {
+		return valor;
+	}
+
+	public void setValor(TIPO valor) {
+		this.valor = valor;
+	}
+	
+}

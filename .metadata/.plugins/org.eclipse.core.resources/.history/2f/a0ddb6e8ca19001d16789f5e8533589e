@@ -1,0 +1,20 @@
+package document.assembler;
+
+public class Element<TYPE> {
+
+	private TYPE value;
+	private Element<TYPE> left;
+	private Element<TYPE> right;
+	
+	public Element(TYPE newValue) {
+		 this.value = newValue;
+	}
+
+	public TYPE getValue() {
+		return value;
+	}
+
+	public void setValue(TYPE value) {
+		this.value = value;
+	}
+}

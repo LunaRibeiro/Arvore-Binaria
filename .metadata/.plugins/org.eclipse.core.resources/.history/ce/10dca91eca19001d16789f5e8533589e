@@ -1,0 +1,10 @@
+package document.assembler;
+
+public class Arvore<TIPO> {
+
+	private Elemento<TIPO> raiz;
+	
+	public Arvore() {
+		this.raiz = null;
+	}
+}

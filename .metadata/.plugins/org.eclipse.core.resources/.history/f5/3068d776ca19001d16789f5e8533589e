@@ -1,0 +1,10 @@
+package document.assembler;
+
+public class Tree<TIPO> {
+
+	private Elemento<TIPO> raiz;
+	
+	public Tree() {
+		this.raiz = null;
+	}
+}

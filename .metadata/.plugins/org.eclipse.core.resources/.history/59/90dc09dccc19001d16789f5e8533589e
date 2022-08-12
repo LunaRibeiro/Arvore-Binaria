@@ -1,0 +1,25 @@
+package document.assembler;
+
+public class Tree<TYPE extends Comparable> {
+
+	private Element<TYPE> branch;
+	
+	public Tree() {
+		this.branch = null;
+	}
+	
+	public void add(TYPE value) {
+		Element<TYPE> newElement = new Element<TYPE>(value);
+		
+		if(branch == null) {
+			this.branch = newElement;
+		}else {
+			Element<TYPE> actualBranch = this.branch;
+			while(true) {
+				if(newElement.getValue() < actualBranch.getValue()) {
+					
+				}
+			}
+		}
+	}
+}

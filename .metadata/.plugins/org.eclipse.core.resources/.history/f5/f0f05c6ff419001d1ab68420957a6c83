@@ -1,0 +1,19 @@
+package document.assembler;
+/***
+ * 
+ * @author LunaRibeiro
+ * 
+ * **/
+public class DocumentAssemblerApplication {
+
+	public static void main(String[] args) {
+		Tree<Integer> tree = new Tree<Integer>();
+		tree.add(0);
+		tree.add(25);
+		tree.add(5);
+		tree.add(13);
+		tree.add(28);
+		tree.order(tree.getBranch());
+	}
+
+}
